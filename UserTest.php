@@ -9,7 +9,7 @@ class UserTest extends PHPUnit_Framework_TestCase
         $user = new User();
  
         // use assertEquals to ensure the greeting is what you
-        $expected = "Hello world12345789!";
+        $expected = "Hello world123457891234!";
         $actual = $user->talk();
         $this->assertEquals($expected, $actual);
     }
